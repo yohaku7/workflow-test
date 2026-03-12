@@ -5,5 +5,5 @@ def test_foo_1():
     assert foo(0, 0) == 0
 
     assert bar(2, 1) == 1
-    assert bar(5, 2) != 3  # oh my gosh!
+    assert bar(5, 2) == 3
 
